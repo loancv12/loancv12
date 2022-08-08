@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/83e6376e5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+
+                <nav class="navbar hide-on-mobile-tablet">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--qr navbar__item--separate">
+                            Vao cua hang tren ung dung F8-shop
+                            <!-- header QR -->
+                            <div class="qr">
+                                <img src="./assets/img/qr-code.png" alt="QR-Code" class="qr-img">
+                                <div class="qr-apps">
+                                    <a href="" class="qr-link">
+                                        <img src="./assets/img/chplay.png" alt="CH Play" class="qr-download-img">
+                                    </a>
+                                    <a href="" class="qr-link">
+                                        <img src="./assets/img/appsrote.png" alt="App Store" class="qr-download-img">
+                                    </a>   
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <span class="navbar-title--no-poiter">Ket noi</span> 
+                            <a href="" class="navbar-icon--link">
+                                <i class="navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="navbar-icon--link">
+                                <i class="navbar-icon ti-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar-item--has-notify">
+                            <a href="" class="navbar__item--link">
+                                <i class="navbar-icon ti-bell"></i>
+                                Thong bao
+                                
+                            </a>
+                            <!-- notification -->
+                            <div class="notify">
+                                <header class="notify-header">
+                                    <h3>Thong bao moi nhan</h3>
+                                </header>
+                                <ul class="notify-list">
+                                    <li class="notify-item notify-item--view">
+                                        <a href="" class="notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name only-one-line">My pham chinh hang</span>
+                                                <span class="notify-desc only-one-line">Mo ta cua my pham oHui</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-item notify-item--view">
+                                        <a href="" class="notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name only-one-line">My pham chinh hang cua luoncuituofffffffffffffi rat dap</span>
+                                                <span class="notify-desc only-one-line">Mo ta cua my pham oHuisssssssssssssssssssssssssssssssssss</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-item">
+                                        <a href="" class="notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name only-one-line">My pham chinh hang</span>
+                                                <span class="notify-desc only-one-line">Mo ta cua my pham oHussssssssssssssssssssssi</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="notify-footer">
+                                    <a href="" class="notify-footer-btn">Xem tat ca</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item--link">
+                                <i class="navbar-icon ti-help-alt"></i>
+                                Tro giup
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar-user">
+                            <img src="./assets/img/icon-user-default.png" alt="" class="navbar-user-img">
+                            <span class="navbar-user-name">Son Dang</span>
+                            <ul class="navbar-user-menu">
+                                <li class="navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="navbar-user-item navbar-user-item--separate ">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="navbar__item navbar__item--strong navbar__item--separate js-open-reg">dang ki</li>
+                        <li class="navbar__item navbar__item--strong js-open-login">dang nhap</li> -->
+                    </ul>
+                </nav>
+                <!-- search -->
+                <div class="with-search">
+                    <div class="menu-bar">
+                        <div class="menu-bar-icon">
+                            <i class="ti-menu menu-icon"></i>
+                        </div>
+                        <div class="cate">
+                            <ul class="cate-other">
+                                <li class="cate-other-item">
+                                    <a href="" class="cate-other-link">Sigh in</a>
+                                </li>
+                                <li class="cate-other-item">
+                                    <a href="" class="cate-other-link">Sigh up</a>
+                                </li>
+                                <li class="cate-other-item">
+                                    <a href="" class="cate-other-link">Log out</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <label for="mobile-search-checkbox" class="mobile-search">
+                            <i class="ti-search mobile-search-checkbox-icon"></i>
+                        </label>
+                    </div>
+                    <div class="search-logo">
+                        <a href="/" class="search-logo-link">
+                            <div class="search-logo-img hide-on-tablet">
+                                <img src="./assets/img/appsrote.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <input type="checkbox" hidden name="" id="mobile-search-checkbox" class="header__search-checkbox">
+                    <div class="search-bar ">
+                        <div class="search-input-wrap">
+                            <input type="text" placeholder="Tim kiem san pham" class="search-input" >
+                            <!-- search-history -->
+                            <div class="search-history">
+                                <h3 class="search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="search-history-list">
+                                    <li class="search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="search-history-item">
+                                        <a href="">Kem trị mụn</a>
+                                    </li>
+                                    <li class="search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="search-select ">
+                            <span class="search-select-label">Trong shop</span>
+                            <i class="search-select-icon fa-brands fa-facebook"></i>
+                            
+                            <ul class="search-option ">
+                                <li class="search-option-item search-option-item__active ">
+                                    <span>Trong shop</span>
+                                    <i class="check-icon ti-check"></i>
+                                </li>
+                                <li class="search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="check-icon ti-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="search-btn">
+                            <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="search-cart">
+                        <div class="search-cart-wrap">
+                            <i class="cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="search-cart-notice">3</span>
+                            <!-- has no cart: search-cart--no-cart -->
+                            <div class="search-cart-list">
+                                <img src="./assets/img/no-cart.png" alt="" class="search-cart--no-cart-img">
+                                <span class="search-cart--no-cart-msg">Chưa có sản phẩm </span>
+                                <!-- cart item -->
+                                <h4 class="search-cart-heading">Sản phẩm đã thêm</h4>  
+                                <ul class="search-cart-list-item">
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ kem đặc trị mụn</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- //san pham thu hai -->
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line ">Bộ kem đặc trị mụn</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc only-one-line">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ kem dưỡng da xuất xứ từ hàn quốc</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ dưỡng da mặt làm trắng ngăn mụn căng mịn không tì vết</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">900.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ kem đặc trị mụn</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line ">Bộ kem đặc trị mụn</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc only-one-line">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ kem dưỡng da xuất xứ từ hàn quốc</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ dưỡng da mặt làm trắng ngăn mụn căng mịn không tì vết</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">900.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-cart-item">
+                                        <img src="./assets/img/item-ohui.jpg" alt="" class="search-cart-img">
+                                        <div class="search-cart-item-info">
+                                            <div class="search-cart-item-head">
+                                                <h5 class="search-cart-item-name only-one-line">Bộ kem đặc trị mụn</h5>
+                                                <div class="search-cart-item-price-wrap">
+                                                    <span class="search-cart-item-price">5.000.000d</span> 
+                                                    <span class="search-cart-item-sign">x</span>
+                                                    <span class="search-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-cart-item-body">
+                                                <span class="search-cart-item-desc">Phân loại hàng: bạc</span>
+                                                <span class="search-cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                                <a href="#" class="search-cart-view btn btn--primary">Xem gio hang</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link ">
+                        Lien quan
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link header__sort-link--active">
+                        MOI NHAT
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        BAN CHAY
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        GIA
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row sm-gutter app-content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item_link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item_link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item_link">Trang điểm mặt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">
+                                Sắp xếp theo
+                            </span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="check-icon fa-solid fa-angle-down"></i>  
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: cao đến thấp</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num-current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn__disable">
+                                        <i class="home-filter__page-icon fa-solid fa-arrow-right"></i><!--
+                                        --></a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-arrow-left"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="mobile-cate">
+                            <ul class="mobile-cate__list">
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                                <li class="mobile-cate__item">
+                                    <a href="" class="mobile-cate__link">Dung cu thiet bi ho tro</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="home-product">
+                            <!-- grid -> row -> column -->
+                            <div class="row sm-gutter">
+                                <!-- productitem -->
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/vector-cosmetic-promo-poster-make-up-remover/87.jpg); "></div>
+                                        <h4 class="home-product-item__name">Sét dưỡng trắng đông y hoàng cung Gong Jing Jang Seol Radiant</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">&#8363;1.200.000</div>
+                                            <div class="home-product-item__price-new">&#8363; 1.000.000 </div>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like--empty-icon ti-heart"></i>
+                                                <i class="home-product-item__like--fill-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__rating--gold fa-solid fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">WHO</span>
+                                            <span class="home-product-item__origin-name">Nhật bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__discount">10%</span>
+                                            <span class="home-product-sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product-pagination-margin">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item__active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8-Shop Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Ứng dụng mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Giới thiệu về chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item"></li>
+                                <a href="" class="footer-item__link">Diều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"> 
+                                    <i class="footer-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">   
+                                    <i class="footer-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item"></li>
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mặt </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                            </li>
+                            <li class="footer-item"></li>
+                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12 ">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer-download">
+                            <img src="./assets/img/qr-code.png" alt="qr-code" class="footer-down-qr-img">
+                            <div class="footer-down-apps">
+                                <a href="" class="footer-down-app-link">
+                                    <img src="./assets/img/appsrote.png" alt="appstore" class="footer-down-app-img">
+                                </a>
+                                <a href="" class="footer-down-app-link">
+                                    <img src="./assets/img/chplay.png" alt="google_play" class="footer-down-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer-text">Copyright belongs CP </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <!-- <div class="modal js-modal">
+        <div class="modal-overlay js-modal-overlay">
+        </div>
+        <div class="modal-body">
+            
+                <!-- form register/ -->
+             <!-- <div class="auth-form js-reg"> 
+                <div class="auth-form-container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Dang ky</h3>
+                        <span class="auth-form__switch">Dang nhap</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form-group">
+                            <input id='1' type="text"  class="auth-form__input" placeholder="nhap email">
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="password" class="auth-form__input" placeholder="mat khau">
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="password" class="auth-form__input" placeholder="nhap lai mat khau">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">Bang viec dang ky f8-shop, ban dong y voi
+                            <a href="" class="auth-form__policy-link">Dieu khoan phuc vu</a>&
+                            <a href="" class="auth-form__policy-link">chinh sach bao mat</a>
+                            
+                        </p>
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn btn-nomal auth-form__control-back">TRO LAI</button>
+                        <button class="btn btn--primary ">DANG KY</button>
+                    </div>
+
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        ket noi voi facebook
+                        <i class="auth-form__socials-icon ti-facebook"></i>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn  btn--size-s btn--with-icon">
+                        ket noi voi google
+                        <i class="auth-form__socials-icon ti-google"></i>
+                    </a>
+                </div>
+            </div>  -->
+            <!-- login -->
+            <!-- <div class="auth-form js-login">
+                <div class="auth-form-container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Dang nhap</h3>
+                        <span class="auth-form__switch">Dang ky</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form-group">
+                            <input id='1' type="text"  class="auth-form__input" placeholder="nhap email">
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="password" class="auth-form__input" placeholder="mat khau">
+                        </div>
+                        
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forget">Quen mat khau</a>
+                            <span class="auth-form__help__separate"></span>
+                            <a href="" class="auth-form__help-link">Can tro giup?</a>
+                        </div>
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn btn-nomal auth-form__control-back">TRO LAI</button>
+                        <button class="btn btn--primary ">DANG NHAP</button>
+                    </div>
+
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        Dang nhap facebook
+                        <i class="auth-form__socials-icon ti-facebook"></i>
+                        <!-- <i class="fa-brands fa-facebook-square"></i> -->
+                    <!-- </a>
+                    <a href="" class="auth-form__socials--google btn  btn--size-s btn--with-icon">
+                        Dang nhap google
+                        <i class="auth-form__socials-icon ti-google"></i>
+                        <!-- <i class="fa-brands fa-facebook-square"></i> -->
+                    <!-- </a>
+                </div>
+            </div> -->
+            
+        <!-- </div> -->  
+    <!-- </div>-->
+
+     <script src="./main.js"></script>
+</body>
+</html>
